@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SVGDemo/SVGKitViewController.swift"
+            timestampString = "572198022.484462"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SVGDemo.SVGKitViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "SVGDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/huzhilin/huzhilin/zl/SVGDemo/SVGDemo/SVGKitViewController.swift"
+                  timestampString = "572197062.321613"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "1630">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SnapKit.ConstraintMaker) -&gt; () in SVGDemo.SVGKitViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "SVGDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/huzhilin/huzhilin/zl/SVGDemo/SVGDemo/SVGKitViewController.swift"
+                  timestampString = "572197062.324962"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "25">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

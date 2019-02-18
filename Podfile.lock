@@ -1,0 +1,34 @@
+PODS:
+  - CocoaLumberjack (3.5.1):
+    - CocoaLumberjack/Core (= 3.5.1)
+  - CocoaLumberjack/Core (3.5.1)
+  - Macaw (0.9.4):
+    - SWXMLHash
+  - SnapKit (4.2.0)
+  - SVGKit (2.1.0):
+    - CocoaLumberjack (~> 3.0)
+  - SWXMLHash (4.7.6)
+
+DEPENDENCIES:
+  - Macaw
+  - SnapKit
+  - SVGKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CocoaLumberjack
+    - Macaw
+    - SnapKit
+    - SVGKit
+    - SWXMLHash
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: 2101f8a5508197a305e737d16c5c2e9e2157628c
+  Macaw: f3c3051fb580484c221159f4cf340736bb2b166f
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SVGKit: 8a2fc74258bdb2abb54d3b65f3dd68b0277a9c4d
+  SWXMLHash: f6e0933ce74f2626669dc544851bc9fc1941670d
+
+PODFILE CHECKSUM: 2d0679d3545e3399500b27d4d63a427d5cf4140a
+
+COCOAPODS: 1.6.0
