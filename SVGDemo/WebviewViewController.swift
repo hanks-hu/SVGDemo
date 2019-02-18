@@ -30,9 +30,16 @@ class WebviewViewController: UIViewController {
             make.bottom.left.right.equalToSuperview()
             make.height.equalToSuperview().multipliedBy(0.5)
         }
+        let svgPath = Bundle.main.path(forResource: "ICO 好妈圈(当前)@2x.svg", ofType: nil)
+        
         if let data = try? Data.init(contentsOf: URL.init(fileURLWithPath: tigerPath ?? "")) {
             let dataStr = String.init(data: data, encoding: .utf8) ?? ""
             wkWebView.loadHTMLString(dataStr, baseURL: nil)
+//            webView.loadHTMLString(dataStr, baseURL: nil)
+        }
+        if let data = try? Data.init(contentsOf: URL.init(fileURLWithPath: svgPath ?? "")) {
+            let dataStr = String.init(data: data, encoding: .utf8) ?? ""
+//            wkWebView.loadHTMLString(dataStr, baseURL: nil)
             webView.loadHTMLString(dataStr, baseURL: nil)
         }
         
